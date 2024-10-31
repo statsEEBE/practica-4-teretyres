@@ -10,7 +10,8 @@ qexp(0.8, lambda)
 #apartado 3 
 n=100
 set.seed(85)
-mean(rexp(n, lambda))
-median(rexp(n, lambda))
-var(rexp(n, lambda))
+sim<- rexp(n, lambda)
+mean(sim)
+median(sim)
+var(sim)
 
